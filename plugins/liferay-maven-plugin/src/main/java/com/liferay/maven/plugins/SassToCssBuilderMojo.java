@@ -56,7 +56,7 @@ public class SassToCssBuilderMojo extends AbstractLiferayMojo {
 
 		executeTool(
 			"com.liferay.portal.tools.SassToCssBuilder",
-			getProjectClassLoader(), args);
+			getToolsClassLoader(), args);
 	}
 
 	/**
